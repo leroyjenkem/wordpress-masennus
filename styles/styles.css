@@ -1,0 +1,91 @@
+@font-face {font-family: "Times-Newer-Roman";
+    src: url('util/fonts/TimesNewerRoman-Regular.otf');
+font-display: swap;
+};
+@font-face {font-family: "Quicksand";
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand');
+font-weight: 700;
+font-display: swap;
+};
+@font-face {font-family: "Open Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans');
+font-weight: 300;
+font-display: swap;
+}
+/*
+body {
+	background-color: #1D202C;
+	min-height: 100vh;
+	margin: 0;
+	padding: calc(1.625rem + 4.5vw);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body::-webkit-scrollbar {
+	  display: none;
+	}
+@media (min-width: 1200px) {
+body {
+	padding: 5rem;
+}
+}
+
+
+#container {
+	position: relative;
+	background-color: rgba(21, 24, 35, 0.7);
+	box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 0.75rem;
+}
+
+
+#container:after {
+	  position: absolute;
+	  content: '';
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  z-index: -1;
+	  height: 100%;
+	  width: 100%;
+	  margin: auto;
+	  filter: blur(2rem);
+		transform: scale(1.075);
+	  background: linear-gradient(90deg, #0fffc1, #7e0fff);
+	  background-size: 200% 200%;
+	  animation: animateGlow 10s ease infinite;
+	}
+
+
+@keyframes animateGlow {
+	    0%  {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 100% 50%
+		}
+	    100% {
+			background-position: 0% 50%
+			}
+	  } */
+
+	  body, html {
+		max-height: 100vh;
+	  }
+
+	  .sliderBackground {
+		background-color: cadetblue;
+		height: 80vh;
+		width: auto;
+	  }
+
+	  .slick-track {
+		background-color: deepskyblue;
+	  }
+
+	  .item {
+		background-color: aliceblue;
+		font-family: 'Times Newer Roman';
+		width: 60%;
+	  }

@@ -1,0 +1,14 @@
+@font-face {font-family: "Times-Newer-Roman";
+    src: url('util/fonts/TimesNewerRoman-Regular.otf');
+font-display: swap;
+};
+@font-face {font-family: "Quicksand";
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand');
+font-weight: 700;
+font-display: swap;
+};
+@font-face {font-family: "Open Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans');
+font-weight: 300;
+font-display: swap;
+};
